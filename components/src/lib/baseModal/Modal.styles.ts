@@ -30,6 +30,7 @@ export const ModalWrapper = styled.div<{ position: string; zIndex: number | unde
   bottom: ${(props) => props.position === 'bottom' && '0'};
   transform: ${(props) => (props.position === 'center' ? 'translate(-50%, -50%)' : 'translate(-50%, 0)')};
   z-index: ${(props) => (props.zIndex ? props.zIndex : '100')};
+  background-color: #fff;
 `;
 
 export const ModalTitle = styled.h2`
